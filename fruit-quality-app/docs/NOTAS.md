@@ -1,0 +1,2 @@
+- Este es el esqueleto base.
+- Siguiente paso: dataset + script de entrenamiento.
