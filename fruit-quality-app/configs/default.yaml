@@ -1,0 +1,18 @@
+dataset:
+  base_dir: "../dataset"        # ajustar cuando tengas el dataset
+  annotations_csv: "labels/annotations.csv"
+  image_root: "images"
+  classes: ["A", "B", "C"]
+  img_size: 224
+  train_subdir: "train"
+  val_subdir: "val"
+  test_subdir: "test"
+
+training:
+  batch_size: 16
+  epochs: 10
+  lr: 0.0005
+  weight_decay: 0.0001
+  num_workers: 2
+  seed: 42
+  output_dir: "../artifacts"
